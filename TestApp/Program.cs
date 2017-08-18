@@ -6,7 +6,8 @@ namespace TestApp
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            TestClass testClass = new TestClass();
+            Console.WriteLine(testClass.MyProperty);
         }
     }
 }

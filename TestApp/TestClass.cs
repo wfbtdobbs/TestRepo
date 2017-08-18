@@ -11,6 +11,7 @@ namespace TestApp
 
         public TestClass()
         {
+            MyProperty = "Hello World!";
         }
     }
 }
